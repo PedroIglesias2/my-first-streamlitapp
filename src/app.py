@@ -71,9 +71,8 @@ dogs_df.rename(columns = translation_dict, inplace = True )
 
 
 # Add title and header
-st.title("Introduction to Streamlit")
-st.header("Dogs in Zurich Data Exploration")
-
+st.title("Dogs in Zurich: Data Exploration")
+st.caption("Data set from 2015 - 2023 (May)")
 # Widgets: checkbox (you can replace st.xx with st.sidebar.xx)
 if st.checkbox("Show Dataframe"):
     st.subheader("This is my dataset:")
